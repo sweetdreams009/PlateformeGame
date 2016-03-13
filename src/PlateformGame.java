@@ -27,7 +27,7 @@ public class PlateformGame extends Application
 		Scene scene = new Scene(root);
 		scene.setFill(Color.BLACK);
 
-		Image pawnTexture = new Image("file:/../res/sample.png");
+	 Image pawnTexture = new Image("file:/../res/Base pack/Tiles/box.png");
 		ImageView pawn = new ImageView();
 		//pawn.setViewport(new Rectangle2D(0, 0, 24, 24));
 		pawn.setImage(pawnTexture);

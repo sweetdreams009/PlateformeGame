@@ -3,3 +3,16 @@
 .project
 .settings/
 bin/
+
+
+
+
+
+
+
+build.xml
+build/
+dist/
+manifest.mf
+nbproject/
+
