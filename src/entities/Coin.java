@@ -1,19 +1,17 @@
 package entities;
 
-public class Coin extends Entity {
-	
+public class Coin extends Tile {
+
 	public Coin() {
 		super();
+		m_ladder = false;
+		m_transparent = true;
 	}
 
 	@Override
 	public void update(double dt) {
-		
-	}
 
-	@Override
-	public void render() {
-		
+		super.update(dt);
 	}
 
 	@Override
